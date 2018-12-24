@@ -83,9 +83,9 @@ class Youtube extends Component {
                 </li>
               ))
             ) : this.state.song ? (
-              <h3>Loading...</h3>
+              <h3 className="text">Loading...</h3>
             ) : (
-              <h3>type the name of song above</h3>
+              <h3 className="text">type the name of song above</h3>
             )}
           </ul>
         </div>
